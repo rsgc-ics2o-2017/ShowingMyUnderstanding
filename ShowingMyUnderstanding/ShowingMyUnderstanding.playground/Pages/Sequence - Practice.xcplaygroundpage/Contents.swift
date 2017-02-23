@@ -30,7 +30,9 @@ import PlaygroundSupport
 let canvas = Canvas(width: 300, height: 300)
 
 // Replace this comment and add your code below...
-
+canvas.defaultLineWidth = 50
+//canvas.drawLine(fromX: 50, fromY: 50, toX: 250, toY: 250)
+canvas.drawLine(fromX: 100, fromY: 100, toX: 200, toY: 200, lineWidth: 50, capStyle: .roundLineCapStyle)
 
 /*:
  ## Template code
